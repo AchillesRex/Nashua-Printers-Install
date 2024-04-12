@@ -21,13 +21,13 @@ def printer_port_exists(port_name):
     return run_command(command, check=False)
 
 # Printer IP address
-printer_ip = "192.168.116.11"
+printer_ip = "<Secret>"
 
 # Corrected network path to the driver's directory
-network_driver_dir = r"\\192.168.111.10\Apps & Tools\App Repo\Nashua\Windows\Nashua C2500\z94800L18\disk1"
+network_driver_dir = r"<Secret>"
 
 # Printer name
-printer_name = "LS-RB-FL2-C2500"
+printer_name = "<Secret>"
 
 # Driver name as specified in the .inf file
 driver_name = "RICOH IM C2500 PCL 6"
